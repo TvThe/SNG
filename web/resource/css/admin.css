@@ -1,0 +1,37 @@
+.navbar_admin_left,.content_admin_right {
+    height: 80vh;
+    background-color: #C4C4C4;
+}
+.content_admin_right {
+    color:white;
+    padding: 50px;
+    position: relative;
+    overflow: scroll;
+}
+.manage_item {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 50px;
+    background-color: #F5EFEF;
+    color: black;
+}
+.manage_item:hover {
+    background-color: #FD7272;
+}
+.table-list-game {
+    background-color: #212A37;
+    color: white;
+}
+.btn-customer {
+    background-color: #3AAA23;
+    color:white;
+}
+#pagination{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+#invalid-feedback ,#invalid-feedback-image {
+    color:red;
+}

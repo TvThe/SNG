@@ -1,0 +1,182 @@
+html,body{
+    background-color: #212A37;
+}
+.boxcontainer{
+    background-color: #111720;
+    border-radius: 25px;
+    display: block;
+    position: relative;        
+    margin-bottom: 20px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (max-width: 100px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.user-Avatar .user-pic{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    margin-bottom: 100px;
+    z-index: 0;
+    margin-left: 4em;
+
+}
+.user-Avatar .user-pic img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.user-Avatar .user-pic{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    margin-bottom: 100px;
+    z-index: 0;
+    margin-left: 1em;
+
+
+}
+.this:hover{
+    text-decoration: underline;
+}
+
+.box{
+    border-radius: 25px;
+    padding-top: 10px;
+    background-color: grey;
+}
+.updatebox{
+    display: table;
+    width:150px;
+    background: white;
+    position: relative;
+    z-index: 2;
+    top:200px;
+    left: 150px;
+    align-content: center;
+    border-radius: 10px;
+}
+.div-row{
+    display:table-row;
+    width:auto;
+}
+.div-row:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.card{
+    background-color: inherit;
+}
+
+.part-color{
+    background-color: #212A37;
+}
+
+h4{
+    color:white;
+}
+.user-informationt{
+    display: block;
+    position: relative;
+    align-content: center;
+    margin-top: 10%;
+}
+.user-informationt:hover{
+
+}
+.seeMore{
+    float:right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.seeMore a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+.seeMore a:hover{
+    text-decoration: underline;
+    display: block;
+}
+
+
+.friend-container{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+}
+
+.friend-container .friendPic{
+    display:inline;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.friendPic{
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+    overflow-x: hidden;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.friendPic img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.friendname{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 90px;
+    padding-top: 20px;
+}
+
+.friendname a{
+    color:white;
+    text-decoration: none;
+}
+
+.friendname a:hover{
+    color:white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.container-fluid{
+    width: 98%;}
+
+h1{
+    margin-left:10px;
+    margin-top: 10px;
+    color:white;
+}
+
+friend-table{
+    display: inline-block;
+    
+    
+}

@@ -1,0 +1,130 @@
+
+/* 
+    Created on : Jun 20, 2022, 10:02:41 PM
+    Author     : window
+*/
+.box-icon-chat {
+    position: relative;
+}
+
+#box-list-friend{
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    position: fixed;
+    top:600px;
+    right: 82px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#list-friend {
+    list-style: none;
+    padding-left: 0;
+
+}
+#new-box-message{
+    list-style: none;
+    padding-left: 0;  
+    position: fixed;
+    top:600px;
+    right: 82px;
+
+}
+.new-item-message{
+    height: 75px;
+    width: 75px;
+}
+
+.new-item-message img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.item-friend {
+    position: relative;
+    color:white;
+    margin-top: 15px;
+
+}
+.item-friend:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.item-friend-link {
+    display:flex;
+    color:white;
+    text-decoration: none;
+}
+.friend-img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#demo {
+    background-color: rgba(0, 0, 0, 1);
+}
+.box-img{
+    position: relative;
+}
+.online_icon{
+    position: absolute;
+    height: 15px;
+    width:15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border:1.5px solid white;
+}
+
+.search{
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+}
+.search:focus{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+.search_btn {
+    height: 100%;
+}
+.input-group {
+    border: 1px solid;
+}
+
+.box-icon-chat {
+    position: relative;
+}
+#numberOfNewMsg{
+    position: absolute;
+    top: 1px;
+    right: 28px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 5px;
+    width: 16px;
+}
+.box-new-msg{
+    display: none;
+    color: black;
+    position: absolute;
+    /* margin-left: -125px; */
+    top: 25px;
+    right: 80px;
+    /* width: 120px; */
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.new-item-message:hover .box-new-msg{
+    display: block;
+}
